@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myApi/myApi.iml" filepath="$PROJECT_DIR$/myApi/myApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myCloud.iml" filepath="$PROJECT_DIR$/myCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myEureka/myEureka.iml" filepath="$PROJECT_DIR$/myEureka/myEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myHystrix/myHystrix.iml" filepath="$PROJECT_DIR$/myHystrix/myHystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myCloud/myMember/myMember.iml" filepath="$PROJECT_DIR$/../myCloud/myMember/myMember.iml" />
+    </modules>
+  </component>
+</project>
