@@ -1,0 +1,24 @@
+#公共配置
+spring:
+  application:
+    name: myEureka
+
+##单机注册中心配置
+---
+server:
+  port: 3851
+
+info:
+  name: ${spring.application.name}
+
+eureka:
+  server:
+    enableSelfPreservation: false
+    evictionIntervalTimerInMs: 5000
+  instance:
+    hostname: 127.0.0.1     #服务端实例名称
+  client:
+    registerWithEureka: false  #代表Eureka不向自己注册自己
+    fetchRegistry: false    #表示自己就是注册中心，并不需要去检索服务
+    serviceUrl:
+      defaultZone: http://127.0.0.1:6851/eureka/

@@ -1,0 +1,62 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.com.atguigu.entity.SysUser",
+      "name": "sysUser",
+      "type": "cn.com.atguigu.entity.SysUser"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo",
+      "type": "cn.com.atguigu.entity.vo.UserInfoVo"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.com.atguigu.entity.SysUser",
+      "name": "sysUser.id",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.SysUser",
+      "name": "sysUser.true-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.SysUser",
+      "name": "sysUser.user-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.id",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.sys-company",
+      "type": "cn.com.atguigu.entity.SysCompany"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.true-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.com.atguigu.entity.vo.UserInfoVo",
+      "name": "userInfoVo.user-name",
+      "type": "java.lang.String"
+    }
+  ]
+}

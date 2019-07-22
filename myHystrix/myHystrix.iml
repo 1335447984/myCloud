@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../myCloud/myHystrix/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../myCloud/myHystrix/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../../myCloud/myHystrix">
+      <sourceFolder url="file://$MODULE_DIR$/../../myCloud/myHystrix/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../myCloud/myHystrix/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../myCloud/myHystrix/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../myCloud/myHystrix/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+server:
+  port: 3685
+
+
+
+#userInfoVo:
+#  id: 10
+#  userName: sd
+#  trueName: sd
+#  map: {k1: v1,k2: v2} #定义一个map集合
+#  lists:                #定义一个list集合
+#    - lisi
+#    - zhaoliu
+#  sysCompany:         #定义一个对象
+#    companyName: 中国
+#    companyCode: C-001
