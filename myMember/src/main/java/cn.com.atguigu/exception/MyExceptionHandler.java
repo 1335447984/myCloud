@@ -32,12 +32,12 @@ public class MyExceptionHandler {
      * @return
      */
    @ExceptionHandler(MyException.class)
-   public String  handleException(Exception e, HttpServletRequest request){
+   public String  handleException(Exception    e, HttpServletRequest request){
         Map<String,Object> map=new HashMap<>();
        request.setAttribute("javax.servlet.error.status_code",400);//必须设置。否则不会进入我们设置的错误页面
         map.put("code","user.not.exception");
         map.put("message",e.getMessage());
-        return  "forward:/error";
+        return  "forward:/errors/error.html";
     }
 
 }
